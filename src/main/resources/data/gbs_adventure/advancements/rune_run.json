@@ -1,0 +1,40 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "gbs_adventure:runium"
+    },
+    "title": {
+      "translate": "advancements.rune_run.title"
+    },
+    "description": {
+      "translate": "advancements.rune_run.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rune_run": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gbs_adventure:runium",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "loot": [
+      "gbs_adventure:rune_runlt"
+    ]
+  }
+}

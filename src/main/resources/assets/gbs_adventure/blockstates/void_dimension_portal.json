@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gbs_adventure:block/void_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "gbs_adventure:block/void_dimension_portal_ns"
+    }
+  }
+}

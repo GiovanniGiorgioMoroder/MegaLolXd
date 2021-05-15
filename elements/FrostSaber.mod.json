@@ -1,0 +1,34 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "h",
+    "customModelName": "Normal",
+    "name": "Frost Dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 2.0,
+    "enchantability": 22,
+    "damageVsEntity": 6.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FrostSaberLivingEntityIsHitWithTool"
+    }
+  }
+}

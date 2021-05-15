@@ -1,0 +1,16 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:raw_chicken_nugget",
+    "count": 4
+  }
+}

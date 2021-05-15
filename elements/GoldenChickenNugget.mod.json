@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_chicken_nugget",
+    "customModelName": "Normal",
+    "name": "diamond Chicken Nugget",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 8,
+    "saturation": 1.0,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "GoldenChickenNuggetFoodEaten"
+    }
+  }
+}

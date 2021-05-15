@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gbs_adventure:blocks/platinum_vein",
+    "up": "gbs_adventure:blocks/platinum_vein",
+    "north": "gbs_adventure:blocks/platinum_vein",
+    "east": "gbs_adventure:blocks/platinum_vein",
+    "south": "gbs_adventure:blocks/platinum_vein",
+    "west": "gbs_adventure:blocks/platinum_vein",
+    "particle": "gbs_adventure:blocks/platinum_vein"
+  }
+}

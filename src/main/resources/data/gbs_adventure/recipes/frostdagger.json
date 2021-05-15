@@ -1,0 +1,24 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:frost_bat_tooth"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "gbs_adventure:frost_bat_eye"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:frost_saber",
+    "count": 1
+  }
+}

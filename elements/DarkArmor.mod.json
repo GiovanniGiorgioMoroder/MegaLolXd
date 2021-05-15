@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "glowplatinum_head",
+    "enableBody": true,
+    "textureBody": "glowplatinum_body",
+    "enableLeggings": true,
+    "textureLeggings": "glowplatinum_leggings",
+    "enableBoots": true,
+    "textureBoots": "glowplatinum_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "glow",
+    "helmetName": "Dark Armor Helmet",
+    "bodyName": "Dark Armor Body",
+    "leggingsName": "Dark Armor Leggings",
+    "bootsName": "Dark Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 35,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 5,
+    "enchantability": 18,
+    "toughness": 3.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "entity.lightning.impact"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:GlowplatinumIngotm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gbs_adventure:blocks/lolo",
+    "up": "gbs_adventure:blocks/lolo",
+    "north": "gbs_adventure:blocks/lolo",
+    "east": "gbs_adventure:blocks/lolo",
+    "south": "gbs_adventure:blocks/lolo",
+    "west": "gbs_adventure:blocks/lolo",
+    "particle": "gbs_adventure:blocks/lolo"
+  }
+}

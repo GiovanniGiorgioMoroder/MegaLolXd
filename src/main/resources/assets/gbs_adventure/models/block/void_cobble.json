@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gbs_adventure:blocks/void_dirt_grass",
+    "up": "gbs_adventure:blocks/void_dirt_grass",
+    "north": "gbs_adventure:blocks/void_dirt_grass",
+    "east": "gbs_adventure:blocks/void_dirt_grass",
+    "south": "gbs_adventure:blocks/void_dirt_grass",
+    "west": "gbs_adventure:blocks/void_dirt_grass",
+    "particle": "gbs_adventure:blocks/void_dirt_grass"
+  }
+}

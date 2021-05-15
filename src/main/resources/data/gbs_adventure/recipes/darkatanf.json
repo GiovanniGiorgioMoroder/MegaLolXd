@@ -1,0 +1,24 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:darkcalamity"
+    },
+    "1": {
+      "item": "gbs_adventure:darkcalamity"
+    },
+    "2": {
+      "item": "gbs_adventure:glowplatinum_ingotm"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:darkatana",
+    "count": 1
+  }
+}

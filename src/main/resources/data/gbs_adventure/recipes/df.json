@@ -1,0 +1,42 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:esswence"
+    },
+    "1": {
+      "item": "gbs_adventure:esswence"
+    },
+    "2": {
+      "item": "gbs_adventure:esswence"
+    },
+    "3": {
+      "item": "gbs_adventure:esswence"
+    },
+    "4": {
+      "item": "gbs_adventure:esswence"
+    },
+    "5": {
+      "item": "gbs_adventure:esswence"
+    },
+    "6": {
+      "item": "gbs_adventure:esswence"
+    },
+    "7": {
+      "item": "gbs_adventure:esswence"
+    },
+    "8": {
+      "item": "gbs_adventure:esswence"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:wish",
+    "count": 1
+  }
+}

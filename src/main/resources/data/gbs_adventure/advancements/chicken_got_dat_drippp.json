@@ -1,0 +1,34 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "gbs_adventure:supreme_chicken_nugget"
+    },
+    "title": {
+      "translate": "advancements.chicken_got_dat_drippp.title"
+    },
+    "description": {
+      "translate": "advancements.chicken_got_dat_drippp.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chicken_got_dat_drippp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "gbs_adventure:supreme_chicken_nugget"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "loot": [
+      "gbs_adventure:jgbh"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gbs_adventure:items/diamond_chicken_nugget"
+  }
+}

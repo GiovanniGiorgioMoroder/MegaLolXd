@@ -1,0 +1,9 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "gbs_adventure:runium"
+  },
+  "result": "gbs_adventure:mana"
+}

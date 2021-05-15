@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gbs_adventure:blocks/gfgfgfgfg",
+    "up": "gbs_adventure:blocks/gfgfgfgfg",
+    "north": "gbs_adventure:blocks/gfgfgfgfg",
+    "east": "gbs_adventure:blocks/gfgfgfgfg",
+    "south": "gbs_adventure:blocks/gfgfgfgfg",
+    "west": "gbs_adventure:blocks/gfgfgfgfg",
+    "particle": "gbs_adventure:blocks/gfgfgfgfg"
+  }
+}

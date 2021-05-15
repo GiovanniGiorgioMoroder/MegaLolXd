@@ -1,0 +1,21 @@
+{
+  "_fv": 18,
+  "_type": "fluid",
+  "definition": {
+    "name": "VoidMoixure",
+    "textureStill": "gxfvb",
+    "textureFlowing": "gxfvb",
+    "luminosity": 4,
+    "density": 1000,
+    "viscosity": 1050,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

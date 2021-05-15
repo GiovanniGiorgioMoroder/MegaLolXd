@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "runium_armor_head",
+    "enableBody": true,
+    "textureBody": "runium_armor_body",
+    "enableLeggings": true,
+    "textureLeggings": "runium_armor_leggings",
+    "enableBoots": true,
+    "textureBoots": "runium_armor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "runium_armor",
+    "helmetName": "Runium Helmet",
+    "bodyName": "Runium Chestplate",
+    "leggingsName": "Runium Leggings",
+    "bootsName": "Runium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 27,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 35,
+    "toughness": 0.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.conduit.activate"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Runium"
+      }
+    ]
+  }
+}

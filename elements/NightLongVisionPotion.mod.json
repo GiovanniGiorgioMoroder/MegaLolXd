@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "long_night_vision_potion",
+    "customModelName": "Normal",
+    "name": "Long Night Vision Potion",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 4,
+    "saturation": 0.5,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "NightLongVisionPotionFoodEaten"
+    }
+  }
+}

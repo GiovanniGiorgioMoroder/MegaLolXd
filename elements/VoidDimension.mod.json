@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Voidlands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:COBBLEVOID"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:VoidMoixure"
+    },
+    "airColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Void pass",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "void_pass",
+    "portalTexture": "portal",
+    "enablePortal": true
+  }
+}

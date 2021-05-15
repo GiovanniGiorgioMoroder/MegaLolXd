@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "gbs_adventure:deathlolxd"
+  },
+  "addition": {
+    "item": "gbs_adventure:evilextract"
+  },
+  "result": {
+    "item": "gbs_adventure:darkcalamity"
+  }
+}

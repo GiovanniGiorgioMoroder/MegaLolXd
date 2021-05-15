@@ -1,0 +1,40 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "nether_bow",
+    "customModelName": "Normal",
+    "name": "Magma Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:NetherArrow"
+    },
+    "shootConstantly": false,
+    "usageCount": 500,
+    "actionSound": {
+      "value": "entity.blaze.burn"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:MagmaEye"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "MagmaRifleBulletHitsLivingEntity"
+    }
+  }
+}

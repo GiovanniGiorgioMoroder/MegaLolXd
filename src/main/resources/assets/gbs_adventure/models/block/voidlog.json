@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gbs_adventure:blocks/juju",
+    "up": "gbs_adventure:blocks/juju",
+    "north": "gbs_adventure:blocks/cd",
+    "east": "gbs_adventure:blocks/cd",
+    "south": "gbs_adventure:blocks/cd",
+    "west": "gbs_adventure:blocks/cd",
+    "particle": "gbs_adventure:blocks/juju"
+  }
+}

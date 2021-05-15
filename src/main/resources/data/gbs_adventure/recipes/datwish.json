@@ -1,0 +1,42 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:wish"
+    },
+    "1": {
+      "item": "gbs_adventure:wish"
+    },
+    "2": {
+      "item": "gbs_adventure:wish"
+    },
+    "3": {
+      "item": "gbs_adventure:wish"
+    },
+    "4": {
+      "item": "minecraft:spider_eye"
+    },
+    "5": {
+      "item": "gbs_adventure:wish"
+    },
+    "6": {
+      "item": "gbs_adventure:wish"
+    },
+    "7": {
+      "item": "gbs_adventure:wish"
+    },
+    "8": {
+      "item": "gbs_adventure:wish"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:deathlolxd",
+    "count": 1
+  }
+}

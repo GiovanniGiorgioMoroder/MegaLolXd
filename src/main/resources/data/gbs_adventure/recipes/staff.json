@@ -1,0 +1,30 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "gbs_adventure:mana"
+    },
+    "2": {
+      "item": "gbs_adventure:runium"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "gbs_adventure:mana"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:runium_staff",
+    "count": 1
+  }
+}

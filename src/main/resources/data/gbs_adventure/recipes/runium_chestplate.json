@@ -1,0 +1,39 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:runium"
+    },
+    "2": {
+      "item": "gbs_adventure:runium"
+    },
+    "3": {
+      "item": "gbs_adventure:runium"
+    },
+    "4": {
+      "item": "gbs_adventure:runium"
+    },
+    "5": {
+      "item": "gbs_adventure:runium"
+    },
+    "6": {
+      "item": "gbs_adventure:runium"
+    },
+    "7": {
+      "item": "gbs_adventure:runium"
+    },
+    "8": {
+      "item": "gbs_adventure:runium"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:runenium_armor_chestplate",
+    "count": 1
+  }
+}

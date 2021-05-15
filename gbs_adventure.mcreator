@@ -1,0 +1,957 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "FrostSaberLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_saber_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrostSaber",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_saber"
+    },
+    {
+      "name": "FrostBatEye",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_bat_eye"
+    },
+    {
+      "name": "FrostBatTooth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_bat_tooth"
+    },
+    {
+      "name": "Frostdagger",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frostdagger"
+    },
+    {
+      "name": "FrostDaggerLoot",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_dagger_loot"
+    },
+    {
+      "name": "FrostDaggerAchievement",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_dagger_achievement"
+    },
+    {
+      "name": "IpotermyPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipotermy_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IpotermyPotionExpires",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipotermy_potion_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ipotermy",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ipotermy"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "GlowplatinumIngot",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowplatinum_ingot"
+    },
+    {
+      "name": "FireAffinity",
+      "type": "enchantment",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_affinity"
+    },
+    {
+      "name": "MagmaEye",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_eye"
+    },
+    {
+      "name": "MagmaRifleBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_rifle_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagmaRifle",
+      "type": "gun",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_rifle"
+    },
+    {
+      "name": "Runium",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium"
+    },
+    {
+      "name": "RuneniumArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runenium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MagicalPowerPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_power_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicalPower",
+      "type": "potion",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_power"
+    },
+    {
+      "name": "RuniumEffects",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RuniumLeggins",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_leggins"
+    },
+    {
+      "name": "RuniumChestplate",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_chestplate"
+    },
+    {
+      "name": "RuniumHelmet",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_helmet"
+    },
+    {
+      "name": "RuniumBoots",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_boots"
+    },
+    {
+      "name": "NetherArrow",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_arrow"
+    },
+    {
+      "name": "NetherArrowRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_arrow_recipe"
+    },
+    {
+      "name": "NetherBow",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_bow"
+    },
+    {
+      "name": "NightLongVisionPotionFoodEaten",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_long_vision_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightLongVisionPotion",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "night_long_vision_potion"
+    },
+    {
+      "name": "LongNightRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "long_night_recipe"
+    },
+    {
+      "name": "GlowplatinumIngotm",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowplatinum_ingotm"
+    },
+    {
+      "name": "FireFish",
+      "type": "mob",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_fish"
+    },
+    {
+      "name": "Darkcalamity",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkcalamity"
+    },
+    {
+      "name": "DarkArmor",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Evilextract",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "evilextract"
+    },
+    {
+      "name": "Darkcalamityrecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkcalamityrecipe"
+    },
+    {
+      "name": "DarkatanaRightClickedInAir",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkatana_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkatana",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkatana"
+    },
+    {
+      "name": "Darkatanf",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkatanf"
+    },
+    {
+      "name": "Deathlolxd",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deathlolxd"
+    },
+    {
+      "name": "Tg",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tg"
+    },
+    {
+      "name": "Wish",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wish"
+    },
+    {
+      "name": "Datwish",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "datwish"
+    },
+    {
+      "name": "Esswence",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "esswence"
+    },
+    {
+      "name": "Sdf",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sdf"
+    },
+    {
+      "name": "Vvh",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vvh"
+    },
+    {
+      "name": "Df",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "df"
+    },
+    {
+      "name": "Runiumblock",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runiumblock"
+    },
+    {
+      "name": "Cfgcfgcfg",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cfgcfgcfg"
+    },
+    {
+      "name": "Mana",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana"
+    },
+    {
+      "name": "Uselessitemthatyoucantget",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uselessitemthatyoucantget"
+    },
+    {
+      "name": "RuniumStaff",
+      "type": "gun",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_staff"
+    },
+    {
+      "name": "RuneRunlt",
+      "type": "loottable",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rune_runlt"
+    },
+    {
+      "name": "RuneRun",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rune_run"
+    },
+    {
+      "name": "RuniumCrystal",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "runium_crystal"
+    },
+    {
+      "name": "Mana2",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mana_2"
+    },
+    {
+      "name": "Staff",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "staff"
+    },
+    {
+      "name": "COBBLEVOID",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobblevoid"
+    },
+    {
+      "name": "VoidCobble",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_cobble"
+    },
+    {
+      "name": "VoidMoixure",
+      "type": "fluid",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_moixure"
+    },
+    {
+      "name": "VoidDimension",
+      "type": "dimension",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "VOIDLOG",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidlog"
+    },
+    {
+      "name": "VoidLeaf",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_leaf"
+    },
+    {
+      "name": "VoidApple",
+      "type": "food",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_apple"
+    },
+    {
+      "name": "Voidlands",
+      "type": "biome",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidlands"
+    },
+    {
+      "name": "Voidpass",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidpass"
+    },
+    {
+      "name": "FireFishOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_fish_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Voidium",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidium"
+    },
+    {
+      "name": "RawChickenNugget",
+      "type": "food",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_chicken_nugget"
+    },
+    {
+      "name": "ChickenNugget",
+      "type": "food",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chicken_nugget"
+    },
+    {
+      "name": "Chickentg",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chickentg"
+    },
+    {
+      "name": "Chghghghghghghg",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chghghghghghghg"
+    },
+    {
+      "name": "GoldenChickenNuggetFoodEaten",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_chicken_nugget_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenChickenNugget",
+      "type": "food",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_chicken_nugget"
+    },
+    {
+      "name": "SupremeChickenNuggetFoodEaten",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supreme_chicken_nugget_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SupremeChickenNugget",
+      "type": "food",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "supreme_chicken_nugget"
+    },
+    {
+      "name": "Fddfdfdfdfd",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fddfdfdfdfd"
+    },
+    {
+      "name": "Fd",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fd"
+    },
+    {
+      "name": "Jgbh",
+      "type": "loottable",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jgbh"
+    },
+    {
+      "name": "ChickenGotDatDrippp",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chicken_got_dat_drippp"
+    },
+    {
+      "name": "FireFishNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_fish_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.gbs_adventure.voidlog": "Void log",
+      "item.gbs_adventure.dark_armor_chestplate": "Dark Armor Body",
+      "item.gbs_adventure.frost_bat_eye": "Frost Bat Eye",
+      "item.gbs_adventure.dark_armor_boots": "Dark Armor Boots",
+      "item.gbs_adventure.void_dimension": "Void pass",
+      "block.gbs_adventure.voidium": "Voidium",
+      "advancements.chicken_got_dat_drippp.descr": "Create a supreme chicken nugget",
+      "item.gbs_adventure.runenium_armor_boots": "Runium Boots",
+      "item.gbs_adventure.night_long_vision_potion": "Long Night Vision Potion",
+      "advancements.glowplatinum_ingot.descr": "create a glowplatinum ingot",
+      "item.minecraft.splash_potion.effect.ipotermy": "Splash Ipotermy",
+      "item.gbs_adventure.esswence": "Essence",
+      "advancements.glowplatinum_ingot.title": "the legendary metal",
+      "item.gbs_adventure.raw_chicken_nugget": "Raw Chicken Nugget",
+      "item.gbs_adventure.mana": "Mana",
+      "block.gbs_adventure.cfgcfgcfg": "Runium crystal block",
+      "advancements.chicken_got_dat_drippp.title": "Chicken Got Dat Drippp",
+      "block.gbs_adventure.cobblevoid": "COBBLEVOID",
+      "item.gbs_adventure.runenium_armor_chestplate": "Runium Chestplate",
+      "item.gbs_adventure.magma_eye": "Magma Eye",
+      "effect.magical_power": "Magical Power",
+      "item.gbs_adventure.nether_arrow": "Nether Arrow",
+      "item.gbs_adventure.evilextract": "Evil extract",
+      "enchantment.gbs_adventure.fire_affinity": "Fire Affinity",
+      "item.gbs_adventure.deathlolxd": "Death wish",
+      "item.gbs_adventure.runium_staff": "Runium Staff",
+      "item.minecraft.lingering_potion.effect.magical_power": "Lingering Magical Power",
+      "block.gbs_adventure.runiumblock": "Runiumblock",
+      "item.gbs_adventure.supreme_chicken_nugget": "Supreme Chicken Nugget",
+      "item.gbs_adventure.golden_chicken_nugget": "diamond Chicken Nugget",
+      "block.gbs_adventure.void_leaf": "Void Leaf",
+      "item.gbs_adventure.glowplatinum_ingotm": "Glowplatinum Ingot",
+      "item.gbs_adventure.darkcalamity": "Dark calamity",
+      "item.gbs_adventure.uselessitemthatyoucantget": "Uselessitemthatyoucantget",
+      "item.minecraft.lingering_potion.effect.ipotermy": "Lingering Ipotermy",
+      "item.minecraft.tipped_arrow.effect.ipotermy": "Arrow of Ipotermy",
+      "advancements.rune_run.title": "Rune Run!",
+      "advancements.frost_dagger_achievement.title": "the legendary dagger",
+      "block.gbs_adventure.platinum_ore": "Glowplatinum Ore",
+      "item.gbs_adventure.wish": "Wish",
+      "item.gbs_adventure.darkatana": "Dark katana",
+      "item.gbs_adventure.dark_armor_leggings": "Dark Armor Leggings",
+      "item.gbs_adventure.void_apple": "Void Apple",
+      "biome.gbs_adventure.voidlands": "Voidlands",
+      "item.minecraft.potion.effect.ipotermy": "Ipotermy",
+      "item.minecraft.splash_potion.effect.magical_power": "Splash Magical Power",
+      "item.gbs_adventure.fire_fish_spawn_egg": "Fire Fish Spawn Egg",
+      "advancements.rune_run.descr": "Get some runium",
+      "item.gbs_adventure.magma_rifle": "Magma Bow",
+      "item.gbs_adventure.frost_saber": "Frost Dagger",
+      "item.gbs_adventure.runenium_armor_leggings": "Runium Leggings",
+      "item.minecraft.potion.effect.magical_power": "Magical Power",
+      "item.gbs_adventure.runium": "Runium",
+      "item.gbs_adventure.chicken_nugget": "Chicken Nugget",
+      "item.gbs_adventure.runenium_armor_helmet": "Runium Helmet",
+      "block.gbs_adventure.void_cobble": "Void Cobblestone",
+      "effect.ipotermy": "Ipotermy",
+      "item.gbs_adventure.frost_bat_tooth": "Frost Bat Tooth",
+      "advancements.frost_dagger_achievement.descr": "create a frost dagger",
+      "item.minecraft.tipped_arrow.effect.magical_power": "Arrow of Magical Power",
+      "fluid.void_moixure": "VoidMoixure",
+      "entity.gbs_adventure.fire_fish": "Fire Fish",
+      "item.gbs_adventure.void_moixure_bucket": "VoidMoixure Bucket",
+      "item.gbs_adventure.dark_armor_helmet": "Dark Armor Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gbs_adventure",
+    "modName": "GB\u0027s adventure",
+    "version": "1.0.0",
+    "author": "gioel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.gbsadventure",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

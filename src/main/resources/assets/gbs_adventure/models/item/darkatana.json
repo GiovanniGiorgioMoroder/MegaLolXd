@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gbs_adventure:items/dark-katana-melee-weapon-minecraft-dungeons-wiki-guide-150px"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:runium"
+    },
+    "2": {
+      "item": "gbs_adventure:runium"
+    },
+    "3": {
+      "item": "gbs_adventure:runium"
+    },
+    "5": {
+      "item": "gbs_adventure:runium"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:runenium_armor_boots",
+    "count": 1
+  }
+}

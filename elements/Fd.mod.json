@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLDEN_APPLE"
+      },
+      {
+        "value": "CUSTOM:Cfgcfgcfg"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:GoldenChickenNugget"
+      },
+      {
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SupremeChickenNugget"
+    },
+    "name": "fd",
+    "namespace": "mod"
+  }
+}

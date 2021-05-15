@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:arrow"
+  },
+  "addition": {
+    "item": "gbs_adventure:magma_eye"
+  },
+  "result": {
+    "item": "gbs_adventure:nether_arrow"
+  }
+}

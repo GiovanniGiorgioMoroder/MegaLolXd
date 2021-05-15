@@ -1,0 +1,42 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:golden_apple"
+    },
+    "1": {
+      "item": "gbs_adventure:cfgcfgcfg"
+    },
+    "2": {
+      "item": "minecraft:golden_apple"
+    },
+    "3": {
+      "item": "minecraft:netherite_block"
+    },
+    "4": {
+      "item": "gbs_adventure:golden_chicken_nugget"
+    },
+    "5": {
+      "item": "minecraft:gold_block"
+    },
+    "6": {
+      "item": "minecraft:golden_apple"
+    },
+    "7": {
+      "item": "minecraft:diamond_block"
+    },
+    "8": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:supreme_chicken_nugget",
+    "count": 1
+  }
+}

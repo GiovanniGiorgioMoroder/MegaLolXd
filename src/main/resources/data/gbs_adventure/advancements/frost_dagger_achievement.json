@@ -1,0 +1,40 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "gbs_adventure:frost_saber"
+    },
+    "title": {
+      "translate": "advancements.frost_dagger_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.frost_dagger_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frost_dagger_achievement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gbs_adventure:frost_saber",
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "loot": [
+      "gbs_adventure:frost_dagger_loot"
+    ]
+  }
+}

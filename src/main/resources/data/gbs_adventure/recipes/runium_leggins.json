@@ -1,0 +1,36 @@
+{
+  "group": "gbs_adventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "gbs_adventure:runium"
+    },
+    "1": {
+      "item": "gbs_adventure:runium"
+    },
+    "2": {
+      "item": "gbs_adventure:runium"
+    },
+    "3": {
+      "item": "gbs_adventure:runium"
+    },
+    "5": {
+      "item": "gbs_adventure:runium"
+    },
+    "6": {
+      "item": "gbs_adventure:runium"
+    },
+    "8": {
+      "item": "gbs_adventure:runium"
+    }
+  },
+  "result": {
+    "item": "gbs_adventure:runenium_armor_leggings",
+    "count": 1
+  }
+}
